@@ -6,7 +6,7 @@ require('dotenv').config()
 const PORT=process.env.PORT
 
 app.get("/",(req,res)=>{
-    res.send("Home..testttt.......")
+    res.send("Home..")
 })
 
 
